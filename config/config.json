@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-mobile-upsell-link-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideMobileUpsellLink/HideMobileUpsellLinkApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideMobileUpsellLink/HideMobileUpsellLinkApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideMobileUpsellLinkApplicationCustomizerStrings": "lib/extensions/hideMobileUpsellLink/loc/{locale}.js"
+  }
+}

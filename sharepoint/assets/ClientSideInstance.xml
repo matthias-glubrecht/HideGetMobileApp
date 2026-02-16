@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HideMobileUpsellLink"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="76ea3b27-ad3e-4434-874c-8f2ac39fad77"
+        Properties="{}">
+    </ClientSideComponentInstance>
+</Elements>

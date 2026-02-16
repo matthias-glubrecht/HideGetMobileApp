@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hide-get-the-mobile-app",
+    "id": "025c4c9b-56f3-47ce-b70d-49ee31584f10",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "features": [
+      {
+        "title": "Application Extension to hide 'Get the mobile app'",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "3f48eaa8-0995-4fac-9fe8-ec727ca1d01b",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hide-get-mobile-app.sppkg"
+  }
+}
